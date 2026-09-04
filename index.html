@@ -1,11 +1,34 @@
 <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>观星者日志 | Starred repositories</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="page">
+      <p class="eyebrow">Repository activity / 2026</p>
+      <h1>观星者日志</h1>
+      <p class="intro">我收藏的仓库日志。记录最近点亮星标的开源项目。</p>
+      <section id="repository-list" class="list" aria-live="polite">
+        <p class="status">Loading repository events...</p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>观星者日志</title>
+    <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>观星者日志</h1>
-    <p>我收藏的仓库日志。</p>
+    <h1>Stargazers log</h1>
+    <p>A log of the repositories I've starred.</p>
+    <ul id="starred"></ul>
+    <script src="script.js"></script>
   </body>
 </html>
